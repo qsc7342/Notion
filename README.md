@@ -22,3 +22,32 @@
 - - -
 
 
+* ## Git 커밋 되돌리기 
+  + reset은 해당 시점 이후의 커밋 내역을 삭제한다.
+
+  + revert는 해당 시점으로 되돌아가되, 그 이후의 커밋 내역은 유지한다.  
+  
+    
+        git log (깃 커밋 내역 조회)
+        git reset --hard 해쉬값 (해쉬값 미포함시 가장 최근 커밋으로)
+        git revert 해쉬값
+        git revert --no-commit 해쉬값 (revert 하지만, 커밋 미진행)
+- - -
+
+* ## Git 브랜치  
+  <br/>
+* ### 브랜치 기본
+  + 여러 기능들을 독립적으로 개발할 때 사용한다.  
+ 
+        git branch (브랜치 조회 및 현재 위치 확인)
+        git branch 브랜치명 (브랜치 생성)
+        git switch 브랜치명 (브랜치 이동)
+        # 이전에는 checkout을 사용하였지만, 2.23 이후 switch, restore로 분리되었다.
+
+        git switch -c 브랜치명 (생성과 이동 동시에 진행)
+        git branch -d 브랜치명 (브랜치 삭제)
+        git branch -m 브랜치명 새이름 (브랜치 이름 변경)
+
+        git log --all --decorate --oneline --graph (모든 브랜치 로그 보기)
+- - -
+
