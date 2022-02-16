@@ -1,189 +1,39 @@
-#  **:pencil: Github를 공부하며 학습한 내용들**
-<hr/>
+<img src="data:image/png;base64,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" 
+width="가로 사이즈" height="세로 사이즈">
+<br/><br/><br/>
+#  **:pencil: Spring MVC를 공부하며 학습한 내용들**
 
-    팀 프로젝트등을 진행할 때, github를 항상 사용해왔지만,
-    commit과 pull, push 등을 제외하고는 거의 사용할 줄 모르고
-    branch 등을 효율적으로 사용하지 못해 main에서만 진행하며, 
-    merge 충돌을 해결하지 못해 git clone을 남발하는 경우가 다반사였다. 
-    이렇게 계속 무의미하게 github를 사용하는 것은 
-    발전이 없을 것 같아 본격적으로 공부해보기로 하였다.
-- - -
-* ## Git에 파일 및 폴더 배제  
-  + 포함하면 안되는 정보를 담은 파일  
-  
-  + 라이브러리나 DS_Store 등과 같은 파일
-  
-  + **.gitignore 파일을 사용하여 해결한다.**
+<hr>
 
-        최상위 폴더 파일 배제: /filename
-        모든 확장자명 파일: *.확장자
-        폴더와 하위 요소: 폴더명/
-        미포함: !파일명
+* ## 정적 콘텐츠
+    + 스프링은 웹 브라우저 - 내장 톰캣 서버 - 스프링 컨테이너 정도로 구성된다.
+    + 특정 html이 요청되었을 때, 해당 파일 관련 컨트롤러가  
+      스프링 컨테이너 내에 존재하지 않는다면, static 폴더에서 콘텐츠를 찾게된다.
+<hr>
 
-        더 자세한 내용은 
-        https://git-scm.com/docs/gitignore를 참고하자.
-- - -
+* ## MVC 입문
+    + GetMapping 어노테이션을 통해 Http의 GET 요청을 핸들링한다.
+    + 해당 메소드에는 RequestParam 어노테이션을 인자에 붙여 필요한 인자를 표기한다.
+    + model에 key-value 형식의 속성을 추가하여 viewResolver로 전달한다.
 
+    + 따라서, 웹 브라우저 - 톰캣 - Controller - viewResolver - 톰캣 - 웹 브라우저  
+    로 진행된다.
 
-* ## Git 커밋 되돌리기 
-  + reset은 해당 시점 이후의 커밋 내역을 삭제한다.
-
-  + revert는 해당 시점으로 되돌아가되, 그 이후의 커밋 내역은 유지한다.  
-  
-    
-        git log (깃 커밋 내역 조회)
-        git reset --hard 해쉬값 (해쉬값 미포함시 가장 최근 커밋으로)
-        git revert 해쉬값
-        git revert --no-commit 해쉬값 (revert 하지만, 커밋 미진행)
-- - -
-
-* ## Git 브랜치  
-  <br/>
-* ### 브랜치 기본
-  + 여러 기능들을 독립적으로 개발할 때 사용한다.  
- 
-        git branch (브랜치 조회 및 현재 위치 확인)
-        git branch 브랜치명 (브랜치 생성)
-        git switch 브랜치명 (브랜치 이동)
-        # 이전에는 checkout을 사용하였지만, 2.23 이후 switch, restore로 분리되었다.
-
-        git switch -c 브랜치명 (생성과 이동 동시에 진행)
-        git branch -d 브랜치명 (브랜치 삭제)
-        git branch -m 브랜치명 새이름 (브랜치 이름 변경)
-
-        git log --all --decorate --oneline --graph (모든 브랜치 로그 보기)
-
-  <br/>
-
-  ### 브랜치 병합
-  + 두 브랜치의 내용을 합친다.
-
-  + 크게 merge와 rebase 방식 존재
-
-  + merge는 브랜치 사용 기록이 남으며,  
-    rebase는 브랜치를 메인 브랜치에 이어붙인다.
-  
-  + 협업 시에, merge가 선호된다.(pull 제외)
-
-        merge는 병합하려는 브랜치로 이동 후, 합칠 브랜치를 선언한다.
-
-        git merge 브랜치명
-
-        rebase는 작업한 브랜치로 이동 후 진행한다.
-
-        git rebase 병합하려는 브랜치명
-        git merge 작업브랜치명
-
-        rebase를 진행하면 작업한 브랜치가 앞에 존재하므로, merge를 추가로 진행한다.
-
-  + merge 진행 시, 충돌이 발생할 수 있다.  
-    만약 충돌 처리가 힘들다면 아래를 통해 취소하자.
-
-        git merge --abort
-        git rebase --abort
-  + 충돌을 해결한 뒤에 git commit -am으로 병합이 완료된다.  
-  rebase의 경우에는 여러 번 커밋될 수 있으므로,
-
-        git rebase --continue
-
-    를 통해 끝까지 rebase를 진행한다.
-- - -
-* ## 원격 저장소(remote)  
-  <br/>
-    *  원격 저장소 생성
-
-
-      git remote add 원격저장소명 레포주소
-    
-    대부분 원격저장소명으로는 origin을 사용한다.  
-
-      
+    + ResponseBody 어노테이션을 붙이면, 뷰 리졸버가 사용되지 않는다.
+        + 객체를 반환하면 객체가 JSON 형태로 변환된다.
+        + 즉, http 요청 body를 자바 객체로 전달받을 수 있다.
+        + 뷰리졸버 대신에, 여러 메세지 컨버터가 작동하게 된다.
+        + Http 헤더들의 정보를 종합해서 컨버터를 선정.  
     <br/>
-    *  pull과 push
+    + 클라이언트가 서버에 JSON 데이터를 보낼 경우, RequestBody 어노테이션을 사용하여  
+    자바객체로 변환시켜, 객체에 저장할 수 있다.
+<hr>
 
-      git pull --no-rebase (merge 방식)
-      git pull --rebase (rebase 방식)
-      git push --force (강제 푸쉬)
+* ## 웹 애플리케이션 계층 구조
+  + 일반적으로 컨트롤러, 서비스, 리포지토리, 도메인으로 나눈다.
+      + Controller : 웹 MVC의 컨트롤러 역할
+      + Service : 핵심 비즈니스 로직 구현
+      + Repository : DB에 접근, 도매인 객체를 저장하고 관리
+      + Domain : 비즈니스 도메인 객체, DTO랑은.. 조금 다른 개념인 것 같다.
+<hr>
 
-
-    <br/>
-    *  원격 브랜치
-
-      git branch -all (모든 브랜치 조회)
-      git branch는 로컬 브랜치만 조회한다.
-
-      git push -u origin 브랜치명 (로컬 브랜치를 원격 저장소에 푸시)
-      
-      git fetch (원격 브랜치 받아오기)
-      git switch -t 원격브랜치명 (로컬에 원격브랜치 연동)
-      git push origin --delete 브랜치명 (원격 브랜치 삭제)
-
-      git fetch와 git pull은 커밋을 로컬로 가져온 뒤,
-      merge를 하느냐의 차이에 있다.
-- - -
-* ## 공간 제어 
-  + git은 Working Dir, Staging Area(add), Repository(commit)  
-  세 가지 공간으로 구분할 수 있다.
-
-    
-        git restore --staged 파일명 
-        (staging area에서 work dir로 이동)
-
-        git reset --option
-        --soft : staging area
-        --mixed : working dir로 이동 (default)
-        --hard : 수정사항 삭제
-
-  + HEAD는 현재 속한 브랜치의 가장 최신 커밋을 의미
-    + checkout을 통해 이동한다.
-    + ^ or ~를 붙이면 갯수만큼 이전으로 이동한다.
-
-          git checkout HEAD^^
-          HEAD 전전 위치로 이동
-
-          git checkout -
-          이동 취소 (한 단계 되돌림)
-- - -
-* ## 편의성
-  + help
-
-        git help
-        git help -a 모든 명령어 조회
-        git commit -h commit에 대한 help
-
-  + config
-
-        git config (global) --list
-        git config (global) key value
-
-        전역 및 지역 조회 및 설정
-
-        git config --global core.autocrlf true
-        git config --global core.autocrlf input
-
-        윈도우의 경우 true, MAC input
-        줄바꿈 호환 문제를 해결해주는 설정이다.
-
-        git config pull.rebase false
-        git config pull.rebase true
-
-        pull의 설정을 rebase로 할 지, merge로 할 지
-
-        git config --global init.defaultBranch main
-        
-        기본 브랜치명을 main으로 설정
-
-        git config --global alias.(단축키) commit
-        커밋을 (단축키)로 사용할 수 있게끔함
-- - -
-* ## 메세지 컨벤션
-  + feat: 기능 추가
-  + fix: 버그 수정
-  + docs: 문서 수정
-  + style: 공백, 세미콜론 등 스타일 수정
-  + refactor: 리팩토링
-  + perf: 성능 개선
-  + test: 테스트 추가 (TDD에서 쓰나보다)
-  + chore: 빌드 과정 또는 보조 과정 수정
-  + **특정 이슈와 관련된 커밋 메세지의 경우 Closes #Num 등을 Footer에 달자**
-- - -
