@@ -35,3 +35,4 @@
 
 ## ETC
 - [Git 기본 명령어](https://ginger-deer-ecb.notion.site/git-798639e5d5a14f42ad2a5a95a59ada22)
+- [Array vs Linked List](https://ginger-deer-ecb.notion.site/Array-vs-Linked-List-aef7af8b5a1d493d9c15b01d2c545f0a)
