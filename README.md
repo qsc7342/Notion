@@ -23,6 +23,7 @@
 
 ## Back-End
 - [Java Static 키워드는 무엇인가?](https://ginger-deer-ecb.notion.site/Static-56f0c36007154f36b7c9a862d02f46a9)
+- [JVM은 무엇인가?](https://ginger-deer-ecb.notion.site/JVM-9d452b5140e14f8daac65a4d2abcb273)
 - [Java Http Request 보내기](https://ginger-deer-ecb.notion.site/Http-88458a8651414d59b6b3d50c18eeb457)
 - [SpringBoot와 Mybatis 연동하기](https://ginger-deer-ecb.notion.site/SpringBoot-Mybatis-958fb696dde34d7da354248667ed6064)
 - [Spring RESTAPI 명세를 쉽게해주는 Swagger API 적용법](https://ginger-deer-ecb.notion.site/Spring-Swagger-3-0-99dab4738cdb4507ac455e915699b7b7)
