@@ -1,4 +1,4 @@
-# 간단한 내용 정리들
+# 내용 정리들
 
 ## Ocaml
 - [Ocaml 기본](https://ginger-deer-ecb.notion.site/Ocaml-e14c2e7fc21542fa8979d308b54b0776)
